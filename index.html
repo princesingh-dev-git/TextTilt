@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <h1>TextTilt🫧</h1>
+    <textarea id="text-input" placeholder="Type or paste your text here...."></textarea>
+    <!-- options -->
+     <div class="options">
+        <label><input type="radio" name="action" value ="uppercase" checked>UPPERCASE</label>
+        <label><input type="radio" name="action" value ="lowercase" >LOWERCASE</label>
+        <label><input type="radio" name="action" value ="capitalize" >CAPTILIZE</label>
+        <label><input type="radio" name="action" value ="trim" >REMOVE EXTRA SPACES</label>
+        <label><input type="radio" name="action" value="remove-numbers"> Remove Numbers</label>
+     </div>
+     <!-- action button -->
+      <button id="transform-btn">Tilt Text</button>
+      <!-- output area -->
+       <h3>Result:</h3>
+       <div id= "output" class="output-box">Your modified text will apper here...</div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
